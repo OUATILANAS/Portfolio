@@ -108,7 +108,6 @@ export default function Certificat() {
                 numVisible={3}
                 itemTemplate={productTemplate}
                 responsiveOptions={responsiveOptions}
-                circular={true} 
                 style={{marginTop: '150px'}}
             />
             <Footer />
