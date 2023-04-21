@@ -7,7 +7,9 @@ This is a React portfolio app with multiple pages/routes that showcase the user'
 Clone the repository and install the dependencies:
 
 git clone https://github.com/your-username/react-portfolio-app.git
+
 cd react-portfolio-app
+
 npm install
 
 Then, start the app:
