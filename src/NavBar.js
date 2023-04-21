@@ -8,9 +8,8 @@ const items = [
   {label: 'Home', to: '/'},
   {label: 'Formations', to: '/formations'},
   {label: 'Experience',to: '/experience' },
-  {label: 'Cours', to: '/cours'},
+  {label: 'Certificat', to: '/certificat'},
   {label: 'Projets',to: '/projets'},
-  {label: 'Galerie',to: '/galerie'}
 ];
 
 function NavBar() {

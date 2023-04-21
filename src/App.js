@@ -6,6 +6,7 @@ import Experience from './Experience';
 import Cours from './Cours';
 import Projets from './Projets';
 import Galerie from './Galerie';
+import Certificat from './Certificat';
 
 
 function App() {
@@ -15,9 +16,8 @@ function App() {
         <Route path="" element={<Acceuil />} />
         <Route path="formations" element={<Formations />} />
         <Route path="experience" element={<Experience />} />
-        <Route path="cours" element={<Cours />} />
+        <Route path="certificat" element={<Certificat />} />
         <Route path="projets" element={<Projets />} />
-        <Route path="galerie" element={<Galerie />} />
     </Routes>
   </BrowserRouter>
   );
