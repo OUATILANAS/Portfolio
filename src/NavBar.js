@@ -5,7 +5,7 @@ import "primereact/resources/primereact.min.css";
 import './App.css';
 
 const items = [
-  {label: 'Home', to: '/acceuil'},
+  {label: 'Home', to: '/'},
   {label: 'Formations', to: '/formations'},
   {label: 'Experience',to: '/experience' },
   {label: 'Cours', to: '/cours'},
