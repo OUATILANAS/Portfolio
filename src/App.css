@@ -12,6 +12,51 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@media (max-width: 960px) {
+  .p-menuitem-link {
+    background-color: #3d005f;
+  }
+}
+
+.galleria-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #873ddc;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #873ddc;
+  color: #fff;
+}
+
 
 .App-header {
   background-color: #282c34;
